@@ -1,0 +1,21 @@
+CODE;
+// C++ code
+//
+void setup() {
+  
+  Serial.begin(9600);
+}
+
+void loop() {
+  
+  Serial.println("Traffic Signal: RED");
+  delay(10000); 
+
+  
+  Serial.println("Traffic Signal: GREEN");
+  delay(7000);  
+
+  
+  Serial.println("Traffic Signal: YELLOW");
+  delay(3000);  
+}
